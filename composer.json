@@ -1,0 +1,30 @@
+{
+    "name" : "kk/demobundle",
+    "description" : "A demo bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Koen Klasing",
+        "email" : "koen@klasing-niewold.nl"
+    }],
+    "keywords" : [
+        "demo bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "kk\\DemoBundle" : ""
+        }
+    },
+    "target-dir" : "kk/DemoBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0-dev"
+        }
+    }
+}
