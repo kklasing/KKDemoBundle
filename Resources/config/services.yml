@@ -1,0 +1,4 @@
+services:
+#    kk_demo.example:
+#        class: kk\DemoBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
